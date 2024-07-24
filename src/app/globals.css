@@ -17,13 +17,7 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: 'inter';
 }
 
 @layer utilities {
@@ -31,3 +25,10 @@ body {
     text-wrap: balance;
   }
 }
+
+/* primary-darker: #162664 */
+/* primary-dark: #253EA7 */
+/* primary-base: #375DFB */
+/* primary-light: #C2D6FF */
+/* primary-lighter: #EBF1FF */
+/* website-background: #FEFEFE */
