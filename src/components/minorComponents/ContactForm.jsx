@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-
+import { message} from 'antd'
 const ContactForm = () => {
     const [email,setEmail] = useState('')
     const contactUs = (e)=>{
@@ -9,11 +9,33 @@ const ContactForm = () => {
 
             console.log('email',email)
             setEmail('')
+            trueNotification()
         }
         else{
-            alert("enter correct email")
+            falseNotification()
         }
     }
+    const falseNotification = () => {
+      if (!email || email.length === 0) {
+        message.open({
+          type: 'error',
+          content: 'Please enter your email address first.',
+        });
+      } else {
+        message.open({
+          type: 'error',
+          content: 'Please review the email address and correct it.',
+        });
+    };
+  }
+    const trueNotification = () => {
+      message.open({
+        type:'success',
+        content:
+          "thanks for contacting us ",
+        
+      });
+    };
   return (
     <form onSubmit={contactUs}>
       <div className="w-[100%] h-fit  flex ">

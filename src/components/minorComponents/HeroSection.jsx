@@ -1,65 +1,53 @@
-import Image from "next/image";
 import React from "react";
-import Hero from "../.../../../../public/Hero.jpg";
-import { FaArrowLeft } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+import Hero from "../../../public/Hero.jpg";
+import Image from "next/image";
+
 const HeroSection = () => {
   return (
-    <div className="w-[80%] my-5 h-fit  flex  justify-between items-center  ">
-      <div className={`flex flex-col gap-8 p-2 px-5  w-[45%] `}>
-        <div className="bg-[#EFF5FC] text-[#253EA7] w-fit p-1 rounded-3xl px-4">
-          courses
-        </div>
-        <div className="flex flex-col gap-4">
-          <h2 className={`text-4xl font-semibold  w-[70%]`}>
-            {" "}
-            Training the world's{" "}
-            <span className="text-[#253EA7]"> Professional </span>
-          </h2>
-          <p className={`w-[75%] text-start `}>
-            Empowering businesses with innovative <strong>AWS</strong> and{" "}
-            <strong>Devops</strong> solutions to transform{" "}
-            <strong> cloud infrastructure </strong>, streamline development
-            processes, and achieve unparalleled efficiency and growth. Join the
-            leaders in IT solutions and training to unlock your full potential.
-          </p>
-        </div>
+    <div className="w-full flex flex-col items-center justify-center my-3 gap-14">
+      <div className="flex flex-col gap-5 items-center p-2 w-[50%]">
+        <h2
+          className={`text-5xl font-semibold  w-[100%] text-center leading-[10vh]`}
+        >
+          Excellence in
+          <span className="text-[#253EA7]"> Recruting </span>& Technology
+          Leadership
+        </h2>
+        <p className={`w-[100%] text-center `}>
+          Your Premier IT Service Company, Recruitment Consultancy, and Software
+          Training Institute. At Talent Cogent, we're your strategic partner in
+          navigating the ever-evolving landscape of technology.
+        </p>
         <button className="text-white bg-[#253EA7] w-fit p-2 rounded-md">
-          Get a Demo
+          Get Started
         </button>
       </div>
-      <div className=" w-[50%] h-full  flex flex-col gap-2">
-        <div className=" w-[100%]  ">
-          <Image
-            src={Hero}
-            className="h-full w-full"
-            height={100}
-            width={100}
-            alt="Hero Picture"
-          />
+
+      <div className={`w-[40%]  p-2 h-[60vh]  `}>
+        <Image
+          src={Hero}
+          className="h-full w-full rounded-xl"
+          height={70}
+          width={50}
+          alt="Hero Picture"
+        />
+      </div>
+      <div className={`w-[70%] h-fit flex items-center justify-between border p-3 shadow-lg`}>
+        <div className=" p-2 px-4 flex flex-col justify-center items-center ">
+          <h5 className="text-[#253EA7] text-3xl font-semibold">1900+</h5>
+          <p className="text-sm">Trusted By Students</p>
         </div>
-        <div className="w-full  flex flex-col justify-start items-center gap-3">
-          <div>
-            <h4 className="text-lg font-semibold">AWS & DevOps Training</h4>
-            <p className="text-gray-500 text-sm">
-              Cutting-edge DevOps practices to enhance development cycles
-            </p>
-          </div>
-          <div className=" flex justify-between items-center  w-[80%]">
-            <div className="flex gap-2">
-              <div className="border-2 w-5 rounded-md"></div>
-              <div className="border-2 w-5 rounded-md"></div>
-              <div className="border-2 w-5 rounded-md"></div>
-            </div>
-            <div className="flex gap-3 justify-center">
-              <div className=" border p-3 rounded-full ">
-                <FaArrowLeft className="text-gray-700" />
-              </div>
-              <div className=" border p-3 rounded-full ">
-                <FaArrowRight className="text-gray-700" />
-              </div>
-            </div>
-          </div>
+        <div className=" p-2 px-4 flex flex-col justify-center items-center ">
+          <h5 className="text-[#253EA7] text-3xl font-semibold">93+</h5>
+          <p className="text-sm">Clients</p>
+        </div>
+        <div className=" p-2 px-4 flex flex-col justify-center items-center ">
+          <h5 className="text-[#253EA7] text-3xl font-semibold">136+</h5>
+          <p className="text-sm">Success Story</p>
+        </div>
+        <div className=" p-2 px-4 flex flex-col justify-center items-center ">
+          <h5 className="text-[#253EA7] text-3xl font-semibold">7+</h5>
+          <p className="text-sm">Courses</p>
         </div>
       </div>
     </div>

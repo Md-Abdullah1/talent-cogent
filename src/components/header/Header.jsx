@@ -12,7 +12,7 @@ const Header = () => {
         <nav>
             <ul className='flex gap-3'>
                 <li className='p-1 text-sm  font-semibold'> <Link href={`/`}>Home</Link></li>
-                <li className='p-1 text-sm  font-semibold'> <Link href={`/`}>Comapny</Link></li>
+                <li className='p-1 text-sm  font-semibold'> <Link href={`/`}>Company</Link></li>
                 <li className='p-1 text-sm  font-semibold'> <Link href={`/`}>Placements</Link></li>
                 <li className='p-1 text-sm  font-semibold'> <Link href={`/`}>Courses</Link></li>
                 <li className='p-1 text-sm  font-semibold'> <Link href={`/`}>Career</Link></li>
