@@ -21,12 +21,12 @@ const Presence = () => {
             <div className='w-full sm:w-[70%] '>
                 <div className='flex flex-col items-center gap-3 p-1 px-2'>
                     <h2 className='text-2xl sm:text-3xl text-center font-bold'>Join A Community Of  <span className='text-[#253EA7]'> 10000+ </span> Tech Professionals</h2>
-                    <p className=' w-full text-[#5F5F5F] font-light text-base text-center sm:w-[80%]'>Discover a community of passionate IT tech professionals who have elevated their careers with Talent Cogent. Together, let's achieve new heights.</p>
+                    <p className=' w-full text-[#5F5F5F] font-light text-base text-center sm:w-[80%]'>Discover a community of passionate IT tech professionals who have elevated their careers with Talent Cogent. Together, let &apos; s achieve new heights.</p>
                 </div>
             </div>
             <div className='w-full bg-[#375DFB] sm:w-[80%]  sm:rounded-lg flex justify-center items-center  py-8'>
                 <div className='w-full sm:w-[80%]  flex flex-col justify-center items-center gap-7 p-1 text-center'>
-                    <h2 className='w-full text-white text-lg sm:text-xl font-semibold sm:w-[70%] sm:leading-8 '>Unlock Your Path to Success & Land Jobs at Tech Titans Worldwide with Talent Cogent's Expert Guidance!</h2>
+                    <h2 className='w-full text-white text-lg sm:text-xl font-semibold sm:w-[70%] sm:leading-8 '>Unlock Your Path to Success & Land Jobs at Tech Titans Worldwide with Talent Cogent &apos; s Expert Guidance!</h2>
                     <ContactForm/>
                 </div>
 

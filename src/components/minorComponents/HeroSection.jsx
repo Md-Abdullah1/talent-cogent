@@ -15,7 +15,7 @@ const HeroSection = () => {
         </h2>
         <p className={`w-[100%] text-center text-sm sm:text-base`}>
           Your Premier IT Service Company, Recruitment Consultancy, and Software
-          Training Institute. At Talent Cogent, we're your strategic partner in
+          Training Institute. At Talent Cogent, we &apos; re your strategic partner in
           navigating the ever-evolving landscape of technology.
         </p>
         <button className="text-white bg-[#253EA7] w-fit text-sm sm:text-base p-2 rounded-md">

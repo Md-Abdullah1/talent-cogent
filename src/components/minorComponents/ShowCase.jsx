@@ -187,27 +187,27 @@ const ShowCase = () => {
         </div>
         <div className="w-[80%] sm:w-[90%]   flex flex-col gap-2  items-center sm:items-start sm:flex-row justify-evenly h-fit p-2">
           <div className=" w-[70%] h-[25vh] sm:w-[28%] sm:h-[45vh] relative">
-            <Image src={Image1} className="h-full w-full rounded-lg" />
+            <Image src={Image1} className="h-full w-full rounded-lg" alt="staffing"/>
             <p className="absolute text-white bg-[#375DFB] px-4 py-2 rounded-tl-lg rounded-br-lg top-0 opacity-85">
               Contract Staffing
             </p>
           </div>
           <div className="w-[100%] h-[30vh] sm:w-[28%] sm:h-[60vh] flex flex-row sm:flex-col gap-2 sm:gap-4 items-center ">
             <div className="w-[45%] h-full sm:w-full sm:h-[45%] relative rounded-lg ">
-              <Image src={Image4} className="h-full w-full rounded-lg" />
+              <Image src={Image4} className="h-full w-full rounded-lg" alt="satffing"/>
               <p className="absolute text-white bg-[#375DFB] px-4 py-2 rounded-tl-lg rounded-br-lg top-0 opacity-85">
                 Permanent Staffing
               </p>
             </div>
             <div className="w-[45%] h-full sm:w-full sm:h-[45%] relative rounded-lg ">
-              <Image src={Image3} className="h-full w-full rounded-lg" />
+              <Image src={Image3} className="h-full w-full rounded-lg" alt="staffing" />
               <p className="absolute text-white bg-[#375DFB] px-4 py-2 rounded-tl-lg rounded-br-lg top-0 opacity-85">
                 Offshore
               </p>
             </div>
           </div>
           <div className="w-[70%] h-[25vh] sm:w-[28%] sm:h-[45vh] relative ">
-            <Image src={Image2} className="h-full w-full rounded-lg" />
+            <Image src={Image2} className="h-full w-full rounded-lg" alt="staffing" />
             <p className="absolute text-white bg-[#375DFB] px-4 py-2 rounded-tl-lg rounded-br-lg top-0 opacity-85">
               Onshore
             </p>

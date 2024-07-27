@@ -13,7 +13,7 @@ const HeroSection2 = () => {
         <div className="flex flex-col gap-4">
           <h2 className={`text-4xl font-semibold  w-[70%]`}>
             {" "}
-            Training the world's{" "}
+            Training the world &apos; s{" "}
             <span className="text-[#253EA7]"> Professional </span>
           </h2>
           <p className={`w-[75%] text-start `}>
