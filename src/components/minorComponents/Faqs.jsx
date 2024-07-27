@@ -40,12 +40,12 @@ const Faqs = () => {
    }
   }
   return (
-    <div className="w-[80%] h-fit  flex flex-col items-center gap-3 my-4">
-      <div className="flex flex-col justify-center items-center gap-1  w-[50%] ">
-        <h2 className="text-2xl font-bold">FAQs</h2>
-        <p>This is where all the answers to your questions are.</p>
+    <div className="w-full sm:w-[80%] h-fit  flex flex-col items-center gap-3 my-4">
+      <div className="w-full flex flex-col justify-center items-center gap-1  sm:w-[50%] ">
+        <h2 className=" text-xl sm:text-2xl font-bold">FAQs</h2>
+        <p className="text-sm sm:text-base">This is where all the answers to your questions are.</p>
       </div>
-      <div className="w-full h-fit flex flex-col gap-3">
+      <div className="w-full h-fit flex flex-col gap-3 px-3 sm:p-0">
         {data &&
           data.map((val, i) => {
             return (

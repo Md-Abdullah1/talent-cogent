@@ -10,9 +10,9 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <div className="w-full h-fit bg-[#162664] py-10 flex justify-center items-center text-white ">
-      <footer className="w-[84%] flex items-start justify-evenly  ">
-        <div className="w-[25%] flex flex-col gap-4">
-          <Link href={`/`} className=" w-[70%] h-fit">
+      <footer className="w-[84%] flex flex-col items-center sm:flex-row sm:items-start sm:justify-evenly gap-5 ">
+        <div className="w-full sm:w-[30%] flex flex-col items-center sm:items-start  gap-4">
+          <Link href={`/`} className="w-[60%] sm:w-[70%] h-fit">
             <Image
               src={Logo}
               alt="logo"
@@ -23,13 +23,13 @@ const Footer = () => {
             />
           </Link>
           <div>
-            <p className="text-xl">
+            <p className=" text-lg font-medium text-center sm:text-left sm:text-xl">
               Built with love in San Francisco,California, USA.
             </p>
           </div>
         </div>
-        <div className="flex gap-10   ">
-          <div className="p-1  flex flex-col gap-5 items-start">
+        <div className="w-full  sm:w-[70%] flex items-center justify-between  sm:items-start flex-wrap gap-5 sm:flex-nowrap  sm:flex-row sm:gap-0   ">
+          <div className="w-full  sm:w-fit  p-1  flex flex-col gap-5 items-start">
             <h2 className="text-lg font-semibold">USA</h2>
             <ul className="flex flex-col gap-3">
               <li>
@@ -53,7 +53,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="p-1  flex flex-col gap-5 items-start">
+          <div className="w-full  sm:w-fit  p-1  flex flex-col gap-5 items-start">
             <h2 className="text-lg font-semibold">India</h2>
             <ul className="flex flex-col gap-3">
               <li>
@@ -76,7 +76,7 @@ const Footer = () => {
               </p>
             </div>
           </div>
-          <div className="p-1  flex flex-col gap-5 items-start">
+          <div className="w-full sm:w-fit  p-1  flex flex-col gap-5 items-start">
             <h2 className="text-lg font-semibold">Quick Links</h2>
             <ul className="flex flex-col gap-3">
               <li>
@@ -99,7 +99,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="p-1  flex flex-col gap-5 items-start">
+          <div className="w-full sm:w-fit  p-1  flex flex-col gap-5 items-start">
             <h2 className="text-lg font-semibold">Follow Us</h2>
             <ul className="flex flex-col gap-4">
               <li>

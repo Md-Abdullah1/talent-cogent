@@ -6,7 +6,7 @@ import ShowCase from '../minorComponents/ShowCase'
 
 const MainComponent = () => {
   return (
-    <div className='w-full flex flex-col items-center gap-3'>
+    <div className='w-full flex flex-col items-center gap-5 md:gap-10'>
       <HeroSection/>
       <ShowCase/>
       <Presence/>
